@@ -20,18 +20,18 @@ const Home = () => {
             <h5 className="text-white text-lg">
               Explore the 50+ campsite we're launching as part of our places
             </h5>
-            <button className="bg-white text-black p-2 rounded-xl cursor-pointer">
+            <button className="bg-white text-black p-2 rounded-xl cursor-pointer text-nowrap">
               Learn more
             </button>
           </div>
           <div className="relative mb-10">
             <img
-              src="https://e1.pxfuel.com/desktop-wallpaper/609/881/desktop-wallpaper-camping-night-campsite.jpg"
+              src="https://cdn.backpacker.com/wp-content/uploads/2014/11/lit-up-tent-against-night-sky.jpg"
               alt=""
               className="w-full rounded-2xl aspect-video"
             />
             <div className="absolute flex bottom-10  w-full  items-center flex-col">
-              <h1 className="text-white text-4xl font-bold py-2">
+              <h1 className="text-white text-4xl text-center font-bold py-2">
                 Not sure where to go? Perfect.
               </h1>
               <button
@@ -124,7 +124,7 @@ const Home = () => {
             />
             <div className="absolute top-0 w-full h-full flex">
               <div className="w-1/2 flex flex-col justify-around m-10">
-                <h1 className="text-white text-4xl font-medium">Question About Your Camp?</h1>
+                <h1 className="text-white text-3xl lg:text-4xl font-medium">Question About Your Camp?</h1>
                 <div className="">
                   <button
                     type="button"
